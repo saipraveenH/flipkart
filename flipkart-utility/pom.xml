@@ -23,5 +23,6 @@
   <modules>
     <module>webapp</module>
     <module>searchapp</module>
+    <module>data</module>
   </modules>
 </project>
