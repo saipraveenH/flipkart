@@ -1,0 +1,13 @@
+creating multi module project:
+==============================
+
+mvn archetype:generate -DgroupId=com.otsi -DartifactId=flipkart-utility -DinteractiveMode=false
+
+cd parent-project
+mvn archetype:generate -DgroupId=com.otsi -DartifactId=core -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.otsi -DartifactId=service -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.otsi -DartifactId=webapp  -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.otsi -DartifactId=searchapp  -DinteractiveMode=false
+
+mvn dependency:tree
+
