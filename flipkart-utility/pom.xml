@@ -24,5 +24,6 @@
     <module>webapp</module>
     <module>searchapp</module>
     <module>data</module>
+    <module>auth</module>
   </modules>
 </project>

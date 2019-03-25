@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Implementation-Title: searchapp
+Implementation-Title: auth
 Implementation-Version: 1.0-SNAPSHOT
 Built-By: praveen.hemadri
 Implementation-Vendor-Id: com.otsi
